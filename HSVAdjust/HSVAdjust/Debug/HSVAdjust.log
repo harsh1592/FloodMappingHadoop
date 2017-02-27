@@ -1,0 +1,23 @@
+﻿Build started 9/21/2015 1:22:04 PM.
+     1>Project "E:\Research\HSVAdjust\HSVAdjust\HSVAdjust.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (HSVAdjust.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\gdal\include\gdal_priv.h(451): warning C4251: 'GDALColorTable::aoEntries' : class 'std::vector<GDALColorEntry,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'GDALColorTable'
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>e:\research\hsvadjust\hsvadjust\source.cpp(35): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\research\hsvadjust\hsvadjust\source.cpp(23): warning C4101: 'conversionDS' : unreferenced local variable
+     1>e:\research\hsvadjust\hsvadjust\source.cpp(23): warning C4101: 'poDstDS' : unreferenced local variable
+     1>e:\research\hsvadjust\hsvadjust\source.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Research\HSVAdjust\Debug\FloodMap.exe" /INCREMENTAL /NOLOGO /LIBPATH:\lib opencv_ts300d.lib opencv_world300d.lib cairo.lib cfitsio.lib clientlib.lib expat.lib fontconfig.lib freetype2411.lib freexl.lib freexl_i.lib fribidi.lib gd.lib gdal_i.lib geos.lib geos_c.lib giflib.lib harfbuzz.lib hdf5.lib hdf5_cpp.lib hdf5_hl.lib hdf5_hl_cpp.lib hdfdll.lib iconv.lib libcurl_imp.lib libeay32.lib libecwj2.lib libfcgi.lib libjbig.lib libjpeg.lib libkea.lib libkmlbase.lib libkmlconvenience.lib libkmldom.lib libkmlengine.lib libkmlregionator.lib libkmlxsd.lib libmysql.lib libpng.lib libpq.lib libpqdll.lib "libsvg-cairo.lib" libsvg.lib libtiff_i.lib libxml2.lib mapserver.lib mfhdfdll.lib minizip.lib netcdf.lib openjp2.lib "pixman-1.lib" poppler.lib proj.lib proj_i.lib spatialite.lib spatialite_i.lib ssleay32.lib szip.lib xdrdll.lib "xerces-c_2.lib" zdll.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Research\HSVAdjust\Debug\FloodMap.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Research\HSVAdjust\Debug\FloodMap.lib" /MACHINE:X86 Debug\Source.obj
+         HSVAdjust.vcxproj -> E:\Research\HSVAdjust\Debug\FloodMap.exe
+     1>Done Building Project "E:\Research\HSVAdjust\HSVAdjust\HSVAdjust.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.48
